@@ -1,10 +1,9 @@
-# Title (replace with your title)
-
-Introductory paragraph (replace this with your text)
+# Regex Tutorial: Matching an Email
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+In this tutorial, we are going to take a look at the regular expression `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/` and demonstrate how it can be used to match email addresses. When breaking down the components of the regex expression, we will explain its functionality and provide examples to demonstrate its usage.
+
 
 ## Table of Contents
 
@@ -16,25 +15,43 @@ Briefly summarize the regex you will be describing and what you will explain. In
 - [The OR Operator](#the-or-operator)
 - [Flags](#flags)
 - [Character Escapes](#character-escapes)
+- [Author](#author)
 
 ## Regex Components
 
 ### Anchors
 
+Anchors are used to match a specific position in the input string.
+
 ### Quantifiers
+Quantifiers specify the number of times a character or group can be repeated.
 
 ### Grouping Constructs
 
+Grouping constructs are used to group multiple elements together and treat them as a single unit.
+
 ### Bracket Expressions
+
+Bracket expressions, also known as character classes
 
 ### Character Classes
 
+Character classes define a set of characters that can be matched at a specific position in the regex.
+
 ### The OR Operator
+
+The OR operator | allows you to specify multiple alternatives in the regex.
 
 ### Flags
 
+Flags are used to modify the behavior of the regex matching.
+
 ### Character Escapes
+
+Character escapes allow you to match special characters or characters with special meanings in regular expressions.
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Name: Philip Kubisz
+[GitHub Profile](https://github.com/your-profile)
+Email: philip.kubisz@gmail.com
